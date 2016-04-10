@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ActivityLifecycle</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sCreate">onCreate() called</string>
+    <string name="sStart">onStart() called</string>
+    <string name="sResume">onResume() called</string>
+    <string name="sPause">onPause() called</string>
+    <string name="sStop">onStop() called</string>
+    <string name="sDestroy">onDestroy() called</string>
+</resources>

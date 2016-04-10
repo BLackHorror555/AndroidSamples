@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/MobileSchool/Day1/SimpleCaller/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">SimpleCaller</string>
+    <string name="call">Call</string>
+    <string name="hello">Hello World, SimpleCallerActivity!</string>
+    <string name="number">Number:</string>
+</resources>

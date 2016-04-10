@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SimpleCallerActivity!</string>
+    <string name="app_name">SimpleCaller</string>
+    <string name="call">Call</string>
+    <string name="number">Number:</string>
+</resources>
