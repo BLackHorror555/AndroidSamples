@@ -26,7 +26,7 @@ public class IntentSampleActivity extends Activity implements View.OnClickListen
 
     switch(v.getId()) {
     case R.id.btnTime:
-      intent = new Intent("com.niit.android.intent.action.showtime1");
+      intent = new Intent("com.niit.android.intent.action.showtime");
         if (intent.resolveActivity(getApplicationContext().getPackageManager()) == null) {
         Toast.makeText(getApplicationContext(), "No suitable intent", Toast.LENGTH_LONG).show();
     }
@@ -34,13 +34,13 @@ public class IntentSampleActivity extends Activity implements View.OnClickListen
       startActivity(intent); }
       break;
     case R.id.btnDate:
-
-        Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
-        sharingIntent.setType("text/plain");
-        sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Subject Here");
-        sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, "shareBody");
-      startActivity(sharingIntent);
-      break;
+        intent = new Intent("com.niit.android.intent.action.showdate");
+        if (intent.resolveActivity(getApplicationContext().getPackageManager()) == null) {
+            Toast.makeText(getApplicationContext(), "No suitable intent", Toast.LENGTH_LONG).show();
+        }
+        else {
+            startActivity(intent); }
+        break;
     }
   }
 }
