@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LayoutSampleActivity!</string>
+    <string name="app_name">AndroidSample2</string>
+    <string name="btnOK">OK</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnHelp">Help</string>
+    <string name="btnFillParent">fill_parent</string>
+    <string name="btnWrapContent">wrap_content</string>
+    <string name="btnWeight">weight</string>
+    <string name="btnGravity">gravity</string>
+    <string name="btnPadding">padding</string>
+</resources>
