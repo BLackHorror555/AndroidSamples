@@ -1,0 +1,74 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:7:5
+	android:label
+		ADDED from AndroidManifest.xml:7:18
+activity#com.niit.android.LocalServiceActivity
+ADDED from AndroidManifest.xml:9:5
+	android:label
+		ADDED from AndroidManifest.xml:9:52
+	android:name
+		ADDED from AndroidManifest.xml:9:15
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:10:7
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:11:9
+	android:name
+		ADDED from AndroidManifest.xml:11:17
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:12:9
+	android:name
+		ADDED from AndroidManifest.xml:12:19
+receiver#com.niit.android.RepeatingAlarmService
+ADDED from AndroidManifest.xml:16:5
+	android:process
+		ADDED from AndroidManifest.xml:16:53
+	android:name
+		ADDED from AndroidManifest.xml:16:15
+receiver#com.niit.android.OnBootReceiver
+ADDED from AndroidManifest.xml:18:5
+	android:exported
+		ADDED from AndroidManifest.xml:18:69
+	android:enabled
+		ADDED from AndroidManifest.xml:18:46
+	android:name
+		ADDED from AndroidManifest.xml:18:15
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:19:7
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:20:9
+	android:name
+		ADDED from AndroidManifest.xml:20:17
+service#com.niit.android.ServiceExample
+ADDED from AndroidManifest.xml:24:5
+	android:enabled
+		ADDED from AndroidManifest.xml:24:14
+	android:name
+		ADDED from AndroidManifest.xml:24:37
+uses-sdk
+ADDED from AndroidManifest.xml:27:3
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:27:13
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from AndroidManifest.xml:29:3
+	android:name
+		ADDED from AndroidManifest.xml:29:20
