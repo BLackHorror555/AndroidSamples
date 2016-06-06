@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- From: file:/D:/MobileSchool/Day2/DynamicResources/app/src/main/res/values/strings.xml -->
-    <eat-comment/>
-    <string name="app_name">AndroidSample16</string>
-    <string name="hello">Hello World, ResultFromActivity!</string>
-    <string name="sInput">Input Name</string>
-    <string name="sName">Name:</string>
-</resources>
